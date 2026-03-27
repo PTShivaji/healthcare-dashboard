@@ -57,11 +57,6 @@ git clone https://github.com/your-username/healthcare-dashboard.git
 
 3. Run using Live Server or open index.html in browser
 
----
-
-## 🌐 Live Demo (Optional)
-
-https://your-username.github.io/healthcare-dashboard/
 
 ---
 
