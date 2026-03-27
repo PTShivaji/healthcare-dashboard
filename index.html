@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name=""viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Healthcare Dashboard</title>
+
+    <link rel="stylesheet" href="css/styles.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <aside class=""sidebar">
+        <h2>Tech.Care</h2>
+
+        <h3>Patients</h3>
+        <ul>
+            <li class="active">Jessica Taylor</li>
+            <li>Brandon Mitchell</li>
+            <li>Samantha Johnson</li>
+        </ul>
+        </aside>
+
+        <main class="main-content">
+
+            <h2>Diagnosis History</h2>
+
+            <canvas id="bpChart"></canvas>
+
+            <div class="cards">
+                <div id="respiratory"></div>
+                 <div id="temperature"></div>
+                  <div id="heart"></div>
+            </div>
+
+            <table id="diagnosticTable">
+                <thead>
+                    <th>Problem</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </main>
+
+        <aside class=""right-panel">
+        
+            <img id="profileImg" src="" alt="Profile" width="100"/>
+
+            <h3 id="name">Jessica Taylor</h3>
+            <p id="dob">DOB</p>
+            <p id="gender">Gender</p>
+        </aside>
+    </div>
+</body>
+</html>
